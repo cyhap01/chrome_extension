@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Selection traductor",
+  "version": "1.0",
+  "description": "Translate a highlighted text",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
