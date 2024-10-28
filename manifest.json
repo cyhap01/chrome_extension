@@ -2,6 +2,15 @@
   "manifest_version": 3,
   "name": "Selection traductor",
   "version": "1.0",
+  "icons": {
+    "128": "Assets/Translator.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["script.js"]
+    }
+  ],
   "description": "Translate a highlighted text",
   "permissions": ["activeTab", "scripting"],
   "action": {
