@@ -13,3 +13,11 @@ chrome.storage.local.get(['selectedText'], (result) => {
     capturedText.innerText = `Testing this text area: ${result.selectedText}`;
   }
 });
+
+
+//fetch('url') // api for the get request
+// .then(response => response.json()) //PROMISES
+// .then(data => console.log(data));
+
+
+
